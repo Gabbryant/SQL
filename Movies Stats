@@ -1,0 +1,19 @@
+# SQL
+SQL Portfolio
+/** Movies
+West Side Story (2)
+Saving Private Ryan (4)
+Hawaii 5.0 (6)
+Ghosts (10)
+Eat Love Pray (12)**/
+
+
+CREATE TABLE Movies (ID INTEGER PRIMARY KEY, name TEXT, Quantity INTEGER);
+
+INSERT INTO Movies VALUES (1, "West Side Story",2);
+INSERT INTO Movies VALUES (2, "Saving Private Ryan", 4);
+INSERT INTO Movies VALUES (3, "Hawaii 5.0", 6);
+INSERT INTO Movies VALUES (4, "Ghosts", 10);
+INSERT INTO Movies VALUES (5, "Eat Love Pray", 12);
+SELECT * FROM Movies;
+SELECT SUM (quantity) FROM Movies 
